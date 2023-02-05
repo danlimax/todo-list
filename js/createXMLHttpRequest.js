@@ -11,10 +11,10 @@ export function createXMLHttpRequest(method, url, sucess, error, data = null) {
       if (xhr.status < 400) {
         const json = JSON.parse(xhr.responseText);
 
-        if (typeof cb === "function") {
+        if (typeof sucess === "function") {
           sucess(json);
         }
-      } else {
+      } else if (typeof error === "function") {
         error("algo deu errado com a conexão");
       }
     }
