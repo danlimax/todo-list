@@ -1,4 +1,4 @@
-#Projeto de uma lista de tarefas utilizando o chamadas de api ajax, promises e fetch.
+#Projeto de uma lista de tarefas utilizando o chamadas de api xhttpRequest, promises e fetch.
 
 #Modelo de projeto mvc.
 
